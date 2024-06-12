@@ -50,19 +50,22 @@ for (int i = 0; i < actualLength; i++) {
 
 class Solution27 {
 public:
+    //通过交换实现移除。 最后两个指针必定错开，i指针之前的都是剩余元素（i指针可能超过数组范围。但是会中止），j指针右边都是移除的元素。
     int removeElement(vector<int>& nums, int val) {
-        int i = 0;
-        int j = nums.size() -1;
-        while(i < j){
-            while(i < j && nums[i] != val){
+        int i = 0;//指向第一个等于val的元素。用于交换
+        int j = nums.size() -1;//指向倒数第一个不等于val的元素，用于交换。
+        while(i <= j){
+            while(i <= j && nums[i] != val){
                 i++;
             }
-            while(i < j && nums[j] == val){
+            while(i <= j && nums[j] == val){
                 j--;
             }
             if(i>=j){
                 break;
             }
+            nums[i++] = nums[j];
+            nums[j--] = val;
         }
         return i;
     }

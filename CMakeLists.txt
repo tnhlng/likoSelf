@@ -16,7 +16,7 @@ add_executable(likoSelf
 
 )
 
-target_link_libraries(likoSelf 
+# target_link_libraries(likoSelf 
     
 
-)
+# )
