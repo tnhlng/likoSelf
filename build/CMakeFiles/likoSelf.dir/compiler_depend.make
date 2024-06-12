@@ -4,7 +4,9 @@
 CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
   /home/tanhailiang/likoSelf/header.h \
   /home/tanhailiang/likoSelf/all.h \
+  /home/tanhailiang/likoSelf/interview150/p26.hpp \
   /home/tanhailiang/likoSelf/interview150/p27.hpp \
+  /home/tanhailiang/likoSelf/interview150/p80.hpp \
   /home/tanhailiang/likoSelf/interview150/p88.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -422,11 +424,7 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/c++/9/debug/assertions.h:
-
-/usr/include/c++/9/cwctype:
-
-/usr/include/c++/9/cfloat:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/9/cwchar:
 
@@ -578,6 +576,12 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/c++/9/bits/regex_compiler.tcc:
 
+/usr/include/c++/9/bits/regex_automaton.tcc:
+
+/usr/include/c++/9/bits/regex_compiler.h:
+
+/usr/include/c++/9/bits/regex_automaton.h:
+
 /usr/include/c++/9/bits/shared_ptr_base.h:
 
 /usr/include/c++/9/bits/erase_if.h:
@@ -585,12 +589,6 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/c++/9/bits/cxxabi_forced.h:
-
-/usr/include/c++/9/bits/char_traits.h:
-
-/usr/include/c++/9/bits/uses_allocator.h:
-
-/usr/include/c++/9/cstdlib:
 
 /usr/include/alloca.h:
 
@@ -620,11 +618,35 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/c++/9/bits/stl_construct.h:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/9/bits/exception.h:
+
 /usr/include/c++/9/cstdio:
 
 /usr/include/c++/9/bits/localefwd.h:
 
-/usr/include/c++/9/memory:
+/home/tanhailiang/likoSelf/interview150/p80.hpp:
+
+/usr/include/c++/9/bits/invoke.h:
+
+/usr/include/c++/9/bits/memoryfwd.h:
+
+/usr/include/c++/9/bits/random.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/9/cfloat:
+
+/usr/include/c++/9/cwctype:
+
+/usr/include/c++/9/bits/streambuf.tcc:
+
+/usr/include/c++/9/bits/char_traits.h:
+
+/usr/include/c++/9/bits/uses_allocator.h:
+
+/usr/include/c++/9/cstdlib:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
@@ -632,15 +654,7 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/c++/9/bits/random.tcc:
 
-/home/tanhailiang/likoSelf/interview150/p88.hpp:
-
-/usr/include/c++/9/bits/indirect_array.h:
-
-/usr/include/c++/9/bits/slice_array.h:
-
-/usr/include/c++/9/bits/regex_automaton.tcc:
-
-/home/tanhailiang/likoSelf/all.h:
+/home/tanhailiang/likoSelf/interview150/p26.hpp:
 
 /usr/include/c++/9/cctype:
 
@@ -662,11 +676,19 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/include/c++/9/bits/slice_array.h:
+
+/home/tanhailiang/likoSelf/interview150/p88.hpp:
+
+/usr/include/c++/9/bits/indirect_array.h:
+
 /usr/include/c++/9/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/9/cerrno:
+
+/home/tanhailiang/likoSelf/all.h:
 
 /usr/include/c++/9/bits/alloc_traits.h:
 
@@ -692,24 +714,6 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/c++/9/debug/debug.h:
 
-/usr/include/c++/9/bits/regex_scanner.h:
-
-/usr/include/c++/9/atomic:
-
-/usr/include/c++/9/bits/mask_array.h:
-
-/usr/include/c++/9/bits/regex_compiler.h:
-
-/usr/include/c++/9/bits/regex_automaton.h:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
-/usr/include/c++/9/bits/random.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/c++/9/bits/streambuf.tcc:
-
 /usr/include/c++/9/backward/binders.h:
 
 /usr/include/c++/9/scoped_allocator:
@@ -718,15 +722,21 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/c++/9/valarray:
 
-/usr/include/c++/9/bits/forward_list.h:
+/usr/include/c++/9/bits/regex_scanner.h:
 
-/usr/include/c++/9/bits/functexcept.h:
+/usr/include/c++/9/atomic:
+
+/usr/include/c++/9/bits/mask_array.h:
+
+/usr/include/c++/9/memory:
+
+/usr/include/c++/9/bits/forward_list.h:
 
 /usr/include/c++/9/bits/unordered_map.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/c++/9/bits/functexcept.h:
 
-/usr/include/c++/9/bits/invoke.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/9/bits/fstream.tcc:
 
@@ -829,6 +839,8 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 /usr/include/c++/9/ext/type_traits.h:
 
 /usr/include/c++/9/bits/regex.h:
+
+/usr/include/c++/9/debug/assertions.h:
 
 /usr/include/c++/9/exception:
 
@@ -1042,10 +1054,6 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/9/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 /usr/include/c++/9/random:
@@ -1111,7 +1119,5 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:

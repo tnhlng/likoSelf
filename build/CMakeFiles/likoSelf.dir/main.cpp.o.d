@@ -1,6 +1,6 @@
 CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
  /usr/include/stdc-predef.h /home/tanhailiang/likoSelf/all.h \
- /home/tanhailiang/likoSelf/interview150/p27.hpp \
+ /home/tanhailiang/likoSelf/interview150/p26.hpp \
  /home/tanhailiang/likoSelf/./header.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h \
  /usr/include/c++/9/cassert \
@@ -277,4 +277,6 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
  /usr/include/c++/9/bits/hashtable_policy.h \
  /usr/include/c++/9/bits/unordered_map.h /usr/include/c++/9/unordered_set \
  /usr/include/c++/9/bits/unordered_set.h /usr/include/c++/9/shared_mutex \
+ /home/tanhailiang/likoSelf/interview150/p27.hpp \
+ /home/tanhailiang/likoSelf/interview150/p80.hpp \
  /home/tanhailiang/likoSelf/interview150/p88.hpp

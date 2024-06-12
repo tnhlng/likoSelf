@@ -45,7 +45,17 @@ for (int i = 0; i < k; i++) {
 
 class Solution26 {
 public:
+    //遍历一次，如果出现大于index指向的元素的值就进行覆盖。
     int removeDuplicates(vector<int>& nums) {
-        
+        if(nums.size() < 2){
+            return nums.size();
+        }
+        int index= 0;
+        for(int i = 0;i< nums.size();i++){
+            if(nums[i] != nums[index]){
+                nums[++index] = nums[i];
+            }
+        }
+        return index + 1;
     }
 };
