@@ -44,14 +44,24 @@ for (int i = 0; i < len; i++) {
 
 class Solution80 {
 public:
+    //通过计数，一个数字出现次数不超过2的覆写到index位置。
     int removeDuplicates(vector<int>& nums) {
         if(nums.size() <= 2){
             return nums.size();
         }
-        int index = 1;
-        for(int j = 2;j< nums.size();j++){
-            if(nums[index] < nums[j] && nums[j] !=nums[j-2]){
-                nums[index+1] = nums[j];
+        int cur = nums.front();
+        int cnt = 0;
+        int index =0;
+        for(int j = 0;j < nums.size();j++){
+            if(nums[j] == cur){
+                cnt ++;
+            }
+            else{
+                cnt = 1;
+                cur = nums[j];
+            }
+            if(cnt <= 2){
+                nums[index] = nums[j];
                 index ++;
             }
         }
