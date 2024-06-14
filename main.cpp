@@ -1,8 +1,8 @@
 #include "all.h"
 
 int main(){
-    Solution80 s;
-    vector<int> nums = vector<int>{1,1,1,2,2,3};
-    auto res = s.removeDuplicates(nums);
+    Solution247 s;
+    vector<int> nums = vector<int>{3,0,6,1,5};
+    auto res = s.hIndex(nums);
     cout<<res<<endl;
 }
