@@ -42,6 +42,7 @@ randomizedSet.getRandom(); // 由于 2 是集合中唯一的数字，getRandom �
 在调用 getRandom 方法时，数据结构中 至少存在一个 元素。
 */
 
+//暂未pass
 class RandomizedSet {
 public:
     RandomizedSet() {
@@ -61,7 +62,7 @@ public:
         if(eleExist.find(val) == eleExist.end()){
             return false; 
         }
-        data.erase(eleExist[val]);
+        //data.erase(eleExist[val]);
         eleExist.erase(val);
         return true;
     }

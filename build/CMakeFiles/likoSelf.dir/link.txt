@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/likoSelf.dir/main.cpp.o -o likoSelf 
+/usr/bin/c++ CMakeFiles/likoSelf.dir/main.cpp.o CMakeFiles/likoSelf.dir/util.cpp.o -o likoSelf 

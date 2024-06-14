@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/tanhailiang/likoSelf/. -I/home/tanhailiang/likoSelf/interview150
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS = -std=gnu++2a
 

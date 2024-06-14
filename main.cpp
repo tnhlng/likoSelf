@@ -1,8 +1,8 @@
 #include "all.h"
 
 int main(){
-    Solution247 s;
-    vector<int> nums = vector<int>{3,0,6,1,5};
-    auto res = s.hIndex(nums);
-    cout<<res<<endl;
+    Solution238 s;
+    vector<int> nums = vector<int>{-1,1,0,-3,3};
+    auto res = s.productExceptSelf(nums);
+    cout<<formatStl(res)<<endl;
 }

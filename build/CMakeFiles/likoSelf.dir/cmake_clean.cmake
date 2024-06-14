@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/likoSelf.dir/main.cpp.o"
   "CMakeFiles/likoSelf.dir/main.cpp.o.d"
+  "CMakeFiles/likoSelf.dir/util.cpp.o"
+  "CMakeFiles/likoSelf.dir/util.cpp.o.d"
   "likoSelf"
   "likoSelf.pdb"
 )

@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+util.o: util.cpp.o
+.PHONY : util.o
+
+# target to build an object file
+util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/util.cpp.o
+.PHONY : util.cpp.o
+
+util.i: util.cpp.i
+.PHONY : util.i
+
+# target to preprocess a source file
+util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/util.cpp.i
+.PHONY : util.cpp.i
+
+util.s: util.cpp.s
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/util.cpp.s
+.PHONY : util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 .PHONY : help
 
 

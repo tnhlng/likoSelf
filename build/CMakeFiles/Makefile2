@@ -81,12 +81,12 @@ clean: CMakeFiles/likoSelf.dir/clean
 CMakeFiles/likoSelf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/likoSelf.dir/build.make CMakeFiles/likoSelf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanhailiang/likoSelf/build/CMakeFiles --progress-num=1,2 "Built target likoSelf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tanhailiang/likoSelf/build/CMakeFiles --progress-num=1,2,3 "Built target likoSelf"
 .PHONY : CMakeFiles/likoSelf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/likoSelf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanhailiang/likoSelf/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanhailiang/likoSelf/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/likoSelf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tanhailiang/likoSelf/build/CMakeFiles 0
 .PHONY : CMakeFiles/likoSelf.dir/rule
