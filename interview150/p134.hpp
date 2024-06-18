@@ -40,7 +40,40 @@
 
 class Solution134 {
 public:
+    //车辆只能向右边走，并且已经走过的站点只能保存油量（盈余，不能拖欠），所以从一个起点遍历之后如果不能继续往下走，那么表示 从这次模拟的最后的位置经历的任意站点都不能完成整个行程。
+    //此外，如果所有站点的cost和gas差值之和大于等于0，表示必定有个站点能完成行程。
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        vector<int> diff(gas.size(),0);
+        int diffSum = 0;
+        for(int i = 0;i< gas.size();i++){
+            diff[i] = gas[i] - cost[i];
+            diffSum += diff[i];
+        }
+        if(diffSum < 0){
+            return -1;
+        }
 
+        int startPot = 0;
+        int remain = 0;
+        int index = 0;
+        while(startPot < gas.size()){
+            //模拟这个起点能到达哪里
+            index = startPot;
+            remain = 0;
+            while(index < gas.size()){
+                remain += diff[index];
+                if(remain < 0){
+                    break;
+                }
+                index ++;
+            }
+            if(remain < 0){
+                startPot = index + 1;
+            }
+            else{
+                break;
+            }
+        }
+        return remain < 0 ? -1 : startPot;
     }
 };
