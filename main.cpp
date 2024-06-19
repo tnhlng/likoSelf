@@ -1,9 +1,9 @@
 #include "all.h"
 
 int main(){
-    Solution134 s;
-    vector<int> nums1 = vector<int>{2,3,4};
+    Solution135 s;
+    vector<int> nums1 = vector<int>{1,2,2};
     vector<int> nums2 = vector<int>{3,4,3};
-    auto res = s.canCompleteCircuit(nums1,nums2);
+    auto res = s.candy(nums1);
     cout<<formatStl(res)<<endl;
 }

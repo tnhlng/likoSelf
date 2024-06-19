@@ -5,6 +5,7 @@
 困难
 相关标签
 相关企业
+
 n 个孩子站成一排。给你一个整数数组 ratings 表示每个孩子的评分。
 
 你需要按照以下要求，给这些孩子分发糖果：
@@ -30,34 +31,64 @@ n 个孩子站成一排。给你一个整数数组 ratings 表示每个孩子的
 
 class Solution135 {
 public:
+
+    //一个规律，发糖果要么比前一个人多发一个，要么为了总数少发，就发1个
+    //如果当前是递增序列，那么比前一个人多发一个，
+    //否则，递减序列的第一个人发一个糖果，然后递减序列中后续人都少发一个，会成为负数，那么就是将之前的人都+1补发一个，从而当前人不会是负数，而是1，不断这样操作。
+
+    /*
+    class Solution {
+    public:
+        int candy(vector<int>& ratings) {
+            int n = ratings.size();
+            int ret = 1;
+            int inc = 1, dec = 0, pre = 1;
+            for (int i = 1; i < n; i++) {
+                if (ratings[i] >= ratings[i - 1]) {
+                    dec = 0;
+                    pre = ratings[i] == ratings[i - 1] ? 1 : pre + 1;
+                    ret += pre;
+                    inc = pre;
+                } else {
+                    dec++;
+                    if (dec == inc) {
+                        dec++;
+                    }
+                    ret += dec;
+                    pre = 1;
+                }
+            }
+            return ret;
+        }
+    };
+    
+    */
     int candy(vector<int>& ratings) {
-        vector<int> vc(ratings.size(),1);
-        int curV = 1;
-        int minV = 1;
-        int maxIndex = 0;
-        int minIndex = 0;
-        int maxRat = 0;
-        int minRat = INT_MAX;
-        for(int i = 1 ;i< ratings.size(); i++){
+        if(ratings.empty()){
+            return 0;
+        }
+        int total = 1;
+        int cur = 1;
+        int descLen = 0;
+        for(int i = 1;i<ratings.size();i++){
             if(ratings[i] > ratings[i-1]){
-                maxRat = ratings[i];
-                maxIndex = i;
+                cur += 1;
+                descLen = 0;
             }
-            if(ratings[i] < ratings[i-1]){
-                minRat = ratings[i];
-                minIndex = i;
-            }
-            
-            if(ratings[i] > ratings[i-1]){
-                curV +=1;
+            else if(ratings[i] < ratings[i-1]){
+                descLen = cur > 1 ? 0 : descLen + 1;
+                cur = 1;
             }
             else{
-                curV -=1;
+                descLen = 0;
+                cur = 1;
             }
-            vc[i] = curV;
-            minV = min(minV,vc[i]);
+            total += cur;
+            if(descLen > 0){
+                total += 1;
+            }
         }
-        auto sumV = std::accumulate(vc.begin(),vc.end(),0);
-        return sumV + ratings.size() * (1 - minV);
+        return total ;
     }
 };
+
