@@ -1,0 +1,3 @@
+/home/tanhailiang/likoSelf/build/CMakeFiles/likoSelf.dir
+/home/tanhailiang/likoSelf/build/CMakeFiles/edit_cache.dir
+/home/tanhailiang/likoSelf/build/CMakeFiles/rebuild_cache.dir
