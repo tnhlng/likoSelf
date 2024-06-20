@@ -9,6 +9,8 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
   /home/tanhailiang/likoSelf/interview150/p13.hpp \
   /home/tanhailiang/likoSelf/interview150/p134.hpp \
   /home/tanhailiang/likoSelf/interview150/p135.hpp \
+  /home/tanhailiang/likoSelf/interview150/p14.hpp \
+  /home/tanhailiang/likoSelf/interview150/p151.hpp \
   /home/tanhailiang/likoSelf/interview150/p169.hpp \
   /home/tanhailiang/likoSelf/interview150/p189.hpp \
   /home/tanhailiang/likoSelf/interview150/p238.hpp \
@@ -545,6 +547,10 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
 /usr/include/c++/9/cfenv:
 
 /usr/include/c++/9/bits/basic_string.h:
@@ -570,6 +576,10 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/9/bits/mask_array.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/c++/9/bits/streambuf_iterator.h:
 
 /usr/include/c++/9/array:
 
@@ -645,10 +655,6 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/stl_tempbuf.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/9/bits/stl_function.h:
-
 /usr/include/c++/9/bits/ostream.tcc:
 
 /usr/include/c++/9/limits:
@@ -679,6 +685,8 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/unordered_set.h:
 
+/usr/include/c++/9/bits/atomic_futex.h:
+
 /usr/include/c++/9/bits/locale_conv.h:
 
 /usr/include/c++/9/bits/stringfwd.h:
@@ -689,19 +697,9 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/locale_classes.tcc:
 
-/usr/include/c++/9/bits/atomic_futex.h:
-
-/usr/include/c++/9/charconv:
-
-/usr/include/c++/9/cuchar:
-
-/usr/include/c++/9/bits/locale_facets.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/c++/9/bits/concept_check.h:
-
-/usr/include/c++/9/cwctype:
 
 /usr/include/c++/9/bits/streambuf.tcc:
 
@@ -729,21 +727,15 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/alloca.h:
 
-/usr/include/c++/9/bits/stl_set.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/9/mutex:
-
-/home/tanhailiang/likoSelf/interview150/p238.hpp:
-
-/usr/include/c++/9/bits/stl_pair.h:
-
-/usr/include/c++/9/bits/atomic_base.h:
-
 /home/tanhailiang/likoSelf/interview150/p58.hpp:
+
+/usr/include/c++/9/bits/uniform_int_dist.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/c++/9/bits/basic_ios.h:
+
+/usr/include/c++/9/bits/hash_bytes.h:
 
 /usr/include/c++/9/backward/binders.h:
 
@@ -819,6 +811,12 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/list.tcc:
 
+/home/tanhailiang/likoSelf/interview150/p151.hpp:
+
+/usr/include/c++/9/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/9/version:
+
 /home/tanhailiang/likoSelf/interview150/p80.hpp:
 
 /usr/include/c++/9/bits/invoke.h:
@@ -831,6 +829,14 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/functional_hash.h:
 
+/usr/include/c++/9/bits/valarray_array.tcc:
+
+/usr/include/c++/9/bits/enable_special_members.h:
+
+/usr/include/c++/9/bits/locale_facets_nonio.h:
+
+/home/tanhailiang/likoSelf/interview150/p247.hpp:
+
 /usr/include/c++/9/bits/unique_ptr.h:
 
 /home/tanhailiang/likoSelf/interview150/p27.hpp:
@@ -841,13 +847,19 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/ratio:
 
-/usr/include/c++/9/bits/basic_ios.h:
+/usr/include/c++/9/bits/stl_set.h:
 
-/usr/include/c++/9/bits/hash_bytes.h:
+/usr/include/c++/9/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/9/bits/uniform_int_dist.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum.h:
+/usr/include/c++/9/mutex:
+
+/home/tanhailiang/likoSelf/interview150/p238.hpp:
+
+/usr/include/c++/9/bits/stl_pair.h:
+
+/usr/include/c++/9/bits/atomic_base.h:
 
 /usr/include/c++/9/bits/basic_ios.tcc:
 
@@ -963,13 +975,17 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/istream.tcc:
 
-/home/tanhailiang/likoSelf/interview150/p247.hpp:
+/usr/include/c++/9/cwctype:
 
-/usr/include/c++/9/bits/valarray_array.tcc:
+/usr/include/c++/9/bits/locale_facets.tcc:
 
-/usr/include/c++/9/bits/enable_special_members.h:
+/usr/include/c++/9/cuchar:
 
-/usr/include/c++/9/bits/locale_facets_nonio.h:
+/usr/include/c++/9/charconv:
+
+/usr/include/c++/9/bits/stl_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/c++/9/ciso646:
 
@@ -1113,10 +1129,6 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/tr1/gamma.tcc:
 
-/usr/include/c++/9/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/9/version:
-
 /usr/include/c++/9/tr1/poly_hermite.tcc:
 
 /usr/include/c++/9/bits/stl_list.h:
@@ -1187,6 +1199,8 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/pthread.h:
 
+/home/tanhailiang/likoSelf/interview150/p14.hpp:
+
 /usr/include/sched.h:
 
 /usr/include/errno.h:
@@ -1212,10 +1226,6 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/c++/9/bits/regex_scanner.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/c++/9/thread:
 
@@ -1260,7 +1270,3 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/9/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:

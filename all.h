@@ -1,5 +1,6 @@
 
 #include "p13.hpp"
+#include "p14.hpp"
 #include "p26.hpp"
 #include "p27.hpp"
 #include "p45.hpp"
@@ -10,6 +11,7 @@
 #include "p121.hpp"
 #include "p134.hpp"
 #include "p135.hpp"
+#include "p151.hpp"
 #include "p169.hpp"
 #include "p189.hpp"
 #include "p238.hpp"
