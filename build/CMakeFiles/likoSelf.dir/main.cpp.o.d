@@ -1,6 +1,6 @@
 CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
  /usr/include/stdc-predef.h /home/tanhailiang/likoSelf/all.h \
- /home/tanhailiang/likoSelf/interview150/p13.hpp \
+ /home/tanhailiang/likoSelf/interview150/p6.hpp \
  /home/tanhailiang/likoSelf/./header.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h \
  /usr/include/c++/9/cassert \
@@ -302,6 +302,7 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
  /usr/include/c++/9/bits/fs_path.h /usr/include/c++/9/bits/fs_dir.h \
  /usr/include/c++/9/bits/fs_ops.h /usr/include/c++/9/variant \
  /usr/include/c++/9/version /home/tanhailiang/likoSelf/./util.h \
+ /home/tanhailiang/likoSelf/interview150/p13.hpp \
  /home/tanhailiang/likoSelf/interview150/p14.hpp \
  /home/tanhailiang/likoSelf/interview150/p26.hpp \
  /home/tanhailiang/likoSelf/interview150/p27.hpp \

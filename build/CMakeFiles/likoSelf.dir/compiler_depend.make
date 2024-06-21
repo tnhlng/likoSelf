@@ -20,6 +20,7 @@ CMakeFiles/likoSelf.dir/main.cpp.o: /home/tanhailiang/likoSelf/main.cpp \
   /home/tanhailiang/likoSelf/interview150/p45.hpp \
   /home/tanhailiang/likoSelf/interview150/p55.hpp \
   /home/tanhailiang/likoSelf/interview150/p58.hpp \
+  /home/tanhailiang/likoSelf/interview150/p6.hpp \
   /home/tanhailiang/likoSelf/interview150/p80.hpp \
   /home/tanhailiang/likoSelf/interview150/p88.hpp \
   /usr/include/alloca.h \
@@ -551,9 +552,7 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
-/usr/include/c++/9/cfenv:
-
-/usr/include/c++/9/bits/basic_string.h:
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
 /usr/include/c++/9/cassert:
 
@@ -576,6 +575,8 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/9/bits/mask_array.h:
+
+/home/tanhailiang/likoSelf/interview150/p6.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
@@ -687,16 +688,6 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/atomic_futex.h:
 
-/usr/include/c++/9/bits/locale_conv.h:
-
-/usr/include/c++/9/bits/stringfwd.h:
-
-/usr/include/c++/9/pstl/pstl_config.h:
-
-/usr/include/c++/9/bits/locale_facets.h:
-
-/usr/include/c++/9/bits/locale_classes.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
 /usr/include/c++/9/bits/concept_check.h:
@@ -711,13 +702,15 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/bits/predefined_ops.h:
 
+/usr/include/c++/9/bits/locale_classes.tcc:
+
+/usr/include/c++/9/bits/locale_facets.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/9/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/9/clocale:
-
-/home/tanhailiang/likoSelf/interview150/p26.hpp:
 
 /usr/include/c++/9/bits/slice_array.h:
 
@@ -726,6 +719,8 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/c++/9/bits/indirect_array.h:
 
 /usr/include/alloca.h:
+
+/home/tanhailiang/likoSelf/interview150/p26.hpp:
 
 /home/tanhailiang/likoSelf/interview150/p58.hpp:
 
@@ -847,6 +842,12 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 
 /usr/include/c++/9/ratio:
 
+/usr/include/c++/9/bits/stringfwd.h:
+
+/usr/include/c++/9/pstl/pstl_config.h:
+
+/usr/include/c++/9/bits/locale_conv.h:
+
 /usr/include/c++/9/bits/stl_set.h:
 
 /usr/include/c++/9/bits/stl_iterator_base_types.h:
@@ -862,6 +863,10 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/c++/9/bits/atomic_base.h:
 
 /usr/include/c++/9/bits/basic_ios.tcc:
+
+/usr/include/c++/9/bits/basic_string.h:
+
+/usr/include/c++/9/cfenv:
 
 /usr/include/c++/9/bits/char_traits.h:
 
@@ -1268,5 +1273,3 @@ CMakeFiles/likoSelf.dir/util.cpp.o: /home/tanhailiang/likoSelf/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
